@@ -1,5 +1,3 @@
-require 'pry'
-
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -11,6 +9,5 @@ def second_challenge
   #code your solution here!
   nested_array = groceries.values
   array = nested_array.flatten
-  binding.pry 
   
 end
