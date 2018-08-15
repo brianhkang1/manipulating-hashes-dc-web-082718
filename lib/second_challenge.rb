@@ -10,7 +10,7 @@ def second_challenge
 
   #code your solution here!
   nested_array = groceries.values
-  nested_array.flatten
+  array = nested_array.flatten
   binding.pry 
 
 end
