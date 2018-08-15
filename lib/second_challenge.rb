@@ -12,5 +12,5 @@ def second_challenge
   nested_array = groceries.values
   array = nested_array.flatten
   binding.pry 
-
+  array 
 end
